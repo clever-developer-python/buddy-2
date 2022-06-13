@@ -1,7 +1,6 @@
 import os
-from os.path import exists
-from shutil import ExecError
 import sys
+import speedtest
 VERSION = "Devmode 2.0"
 DATE = ''
 SOURCE_CODE = 'https://github.com/isanadev123/buddy.git'
@@ -179,6 +178,30 @@ def buddy():
                 with open(f'{name}', 'r') as f:
                     print(f.readlines())
                     queryengine
+
+
+            elif query == 'itest':
+                print('started internet speed test....')
+                st = speedtest.Speedtest()
+                    # Download Speed
+                ds = st.download()
+                du  = st.upload()
+                def humansize(nbytes):
+                        suffixes = ['B', 'KB', 'MB', 'GB', 'TB', 'PB']
+                        i = 0
+                        while nbytes >= 1024 and i < len(suffixes)-1:
+                            nbytes /= 1024.
+                            i += 1
+                        f = ('%.2f' % nbytes).rstrip('0').rstrip('.')
+                        return '%s %s' % (f, suffixes[i])
+                    #Readable
+                print('download speed: ' + humansize(ds))
+                print('upload speed: '+ humansize(du))
+
+                queryengine()
+
+
+            
 
 
 
