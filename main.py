@@ -1,4 +1,5 @@
 import os
+from os.path import exists
 from shutil import ExecError
 import sys
 VERSION = "Devmode 2.0"
@@ -158,9 +159,26 @@ def buddy():
 
 
 
+
             elif query == 'cpu-stats':
                 print(psutil.cpu_stats())
                 queryengine()
+
+            elif query == 'note':
+                name = input('name your note: ')
+                n = input('your note: ')
+                with open(f'{name}', 'w') as f:
+                        f.write(n)
+                        f.close()
+                        print('saved!')
+                        queryengine()
+
+
+            elif query == 'read-note':
+                name = input('name of your note: ')
+                with open(f'{name}', 'r') as f:
+                    print(f.readlines())
+                    queryengine
 
 
 
