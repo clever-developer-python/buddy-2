@@ -13,3 +13,6 @@ and run python3 main.py you can rename the main.py file  if you like and thats i
 
 
 for the ones facing ssl certifacte problems please follow this: https://stackoverflow.com/questions/56326644/python-speedtest-facing-problems-with-certification-ssl-c1056
+
+
+help for commands will be added soon!
