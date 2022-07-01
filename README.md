@@ -4,9 +4,9 @@ project started on 20th april buddy is your python ai compnaion which helps you 
 
 
 
-buddy devmode 3.0:
+buddy version 1:
 
-installation(not reccomended yet)
+installation:
 
 to install buddy as of 14th june 2022 2:36pm india time you need to first download this repo and drag the main.py file from here to your working directory
 and run python3 main.py you can rename the main.py file  if you like and thats it!
