@@ -1,7 +1,7 @@
 import os
 import sys
 import speedtest
-VERSION = "Devmode 3.0"
+VERSION = "1.0"
 DATE = ''
 SOURCE_CODE = 'https://github.com/isanadev123/buddy.git'
 TYPE = 'Robot'
