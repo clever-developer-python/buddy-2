@@ -6,6 +6,6 @@ ________________________________________________________________________________
 project started on 20th april buddy is your python ai compnaion which helps you out buddy will constaly be updated regularly to be up to date with python 3
 
 
-    buddy 1.0 (will not be supported on 16th oct 2022)
+    buddy 1.0 will not be supported on 16th oct 2022 while buddy 2.0 will release on 14th october or 17th october
                                                                             
 
