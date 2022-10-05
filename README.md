@@ -6,6 +6,6 @@ ________________________________________________________________________________
 project started on 20th april buddy is your python ai compnaion which helps you out buddy still in development not recommened to download now for good perfomance 
 
 
-    version 1 (will not be supported on 16th oct 2022)
+    buddy 1.0 (will not be supported on 16th oct 2022)
                                                                             
 
